@@ -10,6 +10,7 @@ Notes
 * axios
 * jest
 * travis-ci
+* Background-image of header: kept max-width to match the image resolution
 
 Disadvantages
 -------------
