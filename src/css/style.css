@@ -1,5 +1,25 @@
-h1 {
-  background-color: red;
+html body * { font-family: sans-serif; }
+.wrapper { max-width: 860px; width: 100%; }
+
+/* header */
+header {
+  height: 450px;
+  background-color: #DEDEDE;
+}
+.header__picture {
+  background-image: url(../image/foto-header.png);
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 280px;
+  padding-bottom: 130px;
+}
+header h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px #777;
 }
 
 .team__picture {
