@@ -1,4 +1,11 @@
+import { get_open } from './opportunities';
+import { render } from './opportunities/renderer';
+
 import '../css/style.css';
 import 'reset-css';
 
-console.log('Hello world with webpack!!!');
+(async () => {
+  const opportunities = await get_open(),
+        container = document.querySelector('ul.vagas');
+  render(opportunities, container);
+})();
