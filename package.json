@@ -17,10 +17,14 @@
   },
   "homepage": "https://github.com/watinha/landing#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "css-loader": "^5.0.2",
     "reset-css": "^5.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
