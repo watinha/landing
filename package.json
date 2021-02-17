@@ -2,9 +2,9 @@
   "name": "landing",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/watinha/landing/issues"
   },
-  "homepage": "https://github.com/watinha/landing#readme"
+  "homepage": "https://github.com/watinha/landing#readme",
+  "dependencies": {
+    "css-loader": "^5.0.2",
+    "reset-css": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  }
 }

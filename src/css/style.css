@@ -1,0 +1,12 @@
+h1 {
+  background-color: red;
+}
+
+.team__picture {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+.team__picture--guto {
+  background-image: url('../image/guto.png');
+}
