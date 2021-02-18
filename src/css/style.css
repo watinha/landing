@@ -30,8 +30,9 @@ header h1 {
   text-align: center;
 }
 .introduction p {
-  padding: 32px 0;
+  padding: 32px 0 23px;
   color: #777;
+  line-height: 1.7em;
 }
 .introduction hr {
   margin: 0 auto;
@@ -95,12 +96,42 @@ header h1 {
 /* Team */
 .team {
   clear: both;
+  background-color: #EEEEEE;
+  padding: 0 0 50px;
+}
+.team h2 {
+  text-transform: uppercase;
+  color: #777777;
+  font-weight: bold;
+  font-size: 1.1em;
+  width: 230px;
+  margin: 0 auto 52px;
+  text-align: center;
+  line-height: 1.2em;
 }
 .team__picture {
-  height: 100px;
-  width: 100px;
+  width: 24%;
+  padding-top: 24%;
+  margin-right: 1.33%;
   background-size: cover;
+  float: left;
+}
+.team__picture--last {
+  margin-right: 0;
 }
 .team__picture--guto {
   background-image: url('../image/guto.png');
 }
+.team__picture--camila {
+  background-image: url('../image/camila.png');
+}
+.team__picture--david {
+  background-image: url('../image/david.png');
+}
+.team__picture--beatriz {
+  background-image: url('../image/beatriz.png');
+}
+.team__column__break { clear: both; }
+
+/* Opennings */
+.opennings { clear: both; }
