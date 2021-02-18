@@ -177,6 +177,37 @@ header h1 {
 .features hr {
   margin: 30px auto 0;
 }
+.features .wrapper a {
+  padding-bottom: 0;
+}
 
 /* Opennings */
-.opennings { clear: both; }
+.footer__picture {
+  background-image: url('../image/foto-bottom.png');
+  background-size: cover;
+  width: 100%;
+  padding-top: 35%;
+}
+.opennings {
+  padding-bottom: 15px;
+}
+.opennings h2 {
+  text-align: center;
+  padding: 53px 0 65px;
+}
+.opennings h3 {
+  padding-bottom: 57px;
+}
+.opennings ul li {
+  padding: 0 0 30px;
+}
+.opennings ul a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #559999;
+}
+.opennings .address {
+  font-size: 1.1em;
+  color: #999999;
+  float: right;
+}
