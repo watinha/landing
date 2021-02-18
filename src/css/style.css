@@ -39,6 +39,8 @@ body hr {
 /* header */
 header {
   background-color: #DEDEDE;
+  max-height: 450px;
+  overflow: hidden;
 }
 .header__picture {
   background-image: url(../image/foto-header.png);
@@ -73,6 +75,7 @@ header h1 {
   padding: 50px 0;
 }
 .news__column {
+  min-width: 360px;
   width: 49%;
   float: right;
 }
@@ -210,4 +213,25 @@ header h1 {
   font-size: 1.1em;
   color: #999999;
   float: right;
+}
+
+@media only screen and (max-width: 750px) {
+  .news__column {
+    width: 100%;
+    float: none;
+  }
+  .news__column+.news__column {
+    margin-right: 0;
+  }
+  .opennings .address {
+    float: none;
+    display: block;
+  }
+  .features__column {
+    width: 100%;
+    float: left;
+  }
+  .features__column+.features__column {
+    margin-left: 0;
+  }
 }
