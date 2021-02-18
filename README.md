@@ -17,4 +17,4 @@ Notes
 Disadvantages
 -------------
 * I need to build to SEE :(
-* URL: [![http://wwatana.be/2021/landing](http://wwatana.be/2021/landing)
+* URL: [http://wwatana.be/2021/landing](http://wwatana.be/2021/landing)
