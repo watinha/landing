@@ -1,9 +1,8 @@
 html body * { font-family: sans-serif; }
-.wrapper { max-width: 860px; width: 100%; }
+.wrapper { max-width: 860px; width: 100%; margin: 0 auto; }
 
 /* header */
 header {
-  height: 450px;
   background-color: #DEDEDE;
 }
 .header__picture {
@@ -20,6 +19,30 @@ header h1 {
   font-weight: bold;
   color: white;
   text-shadow: 1px 1px 1px #777;
+}
+
+/* introduction */
+.introduction {
+  text-align: center;
+}
+.introduction p {
+  padding: 32px 0;
+  color: #777;
+}
+.introduction hr {
+  margin: 0 auto;
+  width: 200px;
+  border: 1px solid #CCC;
+}
+.introduction a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #559999;
+  padding: 24px;
+}
+.introduction a::after {
+  content: " \00BB";
 }
 
 .team__picture {
