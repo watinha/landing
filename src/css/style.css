@@ -1,9 +1,23 @@
+/* GENERAL RULES */
 html body * { font-family: sans-serif; }
 .wrapper {
   max-width: 860px;
   width: 100%;
   margin: 0 auto;
 }
+body h2,
+body h3 {
+  text-transform: uppercase;
+  color: #777777;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+body p {
+  color: #888888;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.column__break { clear: both; }
 
 /* header */
 header {
@@ -33,6 +47,7 @@ header h1 {
   padding: 32px 0 23px;
   color: #777;
   line-height: 1.7em;
+  text-align: center;
 }
 .introduction hr {
   margin: 0 auto;
@@ -62,16 +77,6 @@ header h1 {
   float: right;
   margin-left: 2%;
 }
-.news h2 {
-  text-transform: uppercase;
-  color: #777777;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-.news p {
-  color: #888888;
-  line-height: 1.5em;
-}
 .news__author {
   margin: 14px 0 40px;
   font-size: 1.1em;
@@ -100,10 +105,6 @@ header h1 {
   padding: 0 0 50px;
 }
 .team h2 {
-  text-transform: uppercase;
-  color: #777777;
-  font-weight: bold;
-  font-size: 1.1em;
   width: 230px;
   margin: 0 auto 52px;
   text-align: center;
@@ -140,9 +141,36 @@ header h1 {
 .team__picture--beatriz {
   background-image: url('../image/beatriz.png');
 }
-.team__column__break { clear: both; }
 
 /* Features */
+.features {
+  padding: 50px 0;
+}
+.features__column {
+  width: 30%;
+  float: left;
+}
+.features__column+.features__column {
+  margin-left: 5%;
+}
+.features__picture {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+.features__picture--qualidade {
+  background-image: url('../image/qualidade.png');
+}
+.features__picture--descontracao {
+  background-image: url('../image/descontracao.png');
+}
+.features__picture--atividades {
+  background-image: url('../image/atividades.png');
+}
+.features h3 {
+  padding: 35px 0;
+  text-align: center;
+}
 
 /* Opennings */
 .opennings { clear: both; }
