@@ -11,6 +11,7 @@ Notes
 * jest
 * travis-ci
 * Background-image of header: kept max-width to match the image resolution
+* Font-family: it looks like sans-serif?
 
 Disadvantages
 -------------
