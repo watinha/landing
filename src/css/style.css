@@ -72,10 +72,10 @@ header h1 {
 }
 .news__column {
   width: 49%;
-}
-.news__column--right {
   float: right;
-  margin-left: 2%;
+}
+.news__column+.news__column {
+  margin-right: 2%;
 }
 .news__author {
   margin: 14px 0 40px;
@@ -113,13 +113,13 @@ header h1 {
 .team__picture {
   width: 24%;
   padding-top: 24%;
-  margin-right: 1.33%;
+  margin-right: 0;
   background-size: cover;
   float: left;
   position: relative;
 }
-.team__picture--last {
-  margin-right: 0;
+.team__picture+.team__picture {
+  margin-left: 1.33%;
 }
 .team__picture > a {
   display: block;
