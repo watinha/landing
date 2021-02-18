@@ -115,9 +115,18 @@ header h1 {
   margin-right: 1.33%;
   background-size: cover;
   float: left;
+  position: relative;
 }
 .team__picture--last {
   margin-right: 0;
+}
+.team__picture > a {
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .team__picture--guto {
   background-image: url('../image/guto.png');
@@ -132,6 +141,8 @@ header h1 {
   background-image: url('../image/beatriz.png');
 }
 .team__column__break { clear: both; }
+
+/* Features */
 
 /* Opennings */
 .opennings { clear: both; }
