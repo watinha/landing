@@ -8,8 +8,8 @@ const Opportunities = (() => {
   return {
     get_open: async () => {
       let response = await axios.get(CONSTANTS.URL);
-      return response.data.vagas.map((vaga) => {
-        if (!vaga.ativa) return false;
+      return response.data.vagas.flatMap((vaga) => {
+        if (!vaga.ativa) return [];
         const { link, cargo, localizacao } = vaga;
         let loc = 'Remoto';
         if (localizacao) {
@@ -17,7 +17,7 @@ const Opportunities = (() => {
           loc = `${bairro} - ${cidade}, ${pais}`;
         }
         return { cargo: cargo, link: link, localizacao: loc };
-      }).filter((vaga) => vaga);
+      });
     }
   }
 })();
