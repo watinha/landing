@@ -154,8 +154,14 @@ header h1 {
   padding: 50px 0;
   text-align: center;
 }
+.column__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .features__column {
-  min-width: 225px;
+  min-width: 258px;
+  width: 30%;
 }
 .features__column+.features__column {
   margin-left: 5%;
@@ -183,9 +189,6 @@ header h1 {
 }
 .features .wrapper a {
   padding-bottom: 0;
-}
-.column__container {
-  display: flex;
 }
 
 /* Opennings */
@@ -237,8 +240,5 @@ footer .wrapper {
   }
   .features__column+.features__column {
     margin-left: 0;
-  }
-  .column__container {
-    display: block;
   }
 }
